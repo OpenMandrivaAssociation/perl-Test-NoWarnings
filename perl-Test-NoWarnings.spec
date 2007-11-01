@@ -1,6 +1,6 @@
 %define	module	Test-NoWarnings
 %define	modprefix Test
-%define	version	0.083
+%define	version	0.084
 %define	release	%mkrel 1
 
 Summary:	Make sure you didn't emit any warnings while testing
