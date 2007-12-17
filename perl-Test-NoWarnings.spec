@@ -15,7 +15,6 @@ Url:		http://search.cpan.org/dist/%{module}/
 BuildRequires:	perl-devel
 %endif
 BuildRequires:	perl(Test::Tester) >= 0.103
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot/
 BuildArch:	noarch
 
 %description
