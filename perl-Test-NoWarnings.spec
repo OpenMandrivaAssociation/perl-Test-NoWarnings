@@ -1,7 +1,7 @@
 %define	module	Test-NoWarnings
 %define	modprefix Test
 %define	version	0.084
-%define	release	%mkrel 1
+%define	release	%mkrel 3
 
 Summary:	Make sure you didn't emit any warnings while testing
 Name:		perl-%{module}
