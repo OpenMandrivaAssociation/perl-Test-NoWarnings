@@ -1,14 +1,14 @@
 %define	modname	Test-NoWarnings
-%define modver	1.02
+%define modver 1.04
 
 Summary:	Make sure you didn't emit any warnings while testing
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	10
+Release:	1
 License:	LGPLv2
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
-Source0:	http://www.cpan.org/modules/by-module/Test/%{modname}-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Test/Test-NoWarnings-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test::Tester) >= 0.103
@@ -38,4 +38,5 @@ trace of what was going on when the it occurred.
 %doc README
 %{perl_vendorlib}/Test
 %{_mandir}/man3/*
+
 
