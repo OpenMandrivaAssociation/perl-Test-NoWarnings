@@ -7,10 +7,10 @@
 Summary:	Make sure you didn't emit any warnings while testing
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	8
+Release:	9
 License:	LGPLv2
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{modname}/
+Url:		http://metacpan.org/pod/Test::NoWarnings
 Source0:	http://www.cpan.org/modules/by-module/Test/Test-NoWarnings-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
