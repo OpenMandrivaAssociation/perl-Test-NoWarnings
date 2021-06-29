@@ -7,7 +7,7 @@
 Summary:	Make sure you didn't emit any warnings while testing
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	9
+Release:	10
 License:	LGPLv2
 Group:		Development/Perl
 Url:		http://metacpan.org/pod/Test::NoWarnings
@@ -25,7 +25,7 @@ diagnostics of where, when and what the warning was, including a stack
 trace of what was going on when the it occurred.
 
 %prep
-%setup -qn %{modname}-%{modver}
+%autosetup -p1 -n %{modname}-%{modver}
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor
