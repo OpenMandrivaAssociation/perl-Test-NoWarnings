@@ -1,5 +1,5 @@
 %define	modname	Test-NoWarnings
-%define modver 1.04
+%define modver 1.06
 
 # Avoid nasty build dependency loop
 %define dont_gprintify 1
@@ -7,7 +7,7 @@
 Summary:	Make sure you didn't emit any warnings while testing
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	10
+Release:	1
 License:	LGPLv2
 Group:		Development/Perl
 Url:		http://metacpan.org/pod/Test::NoWarnings
