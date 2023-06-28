@@ -7,7 +7,7 @@
 Summary:	Make sure you didn't emit any warnings while testing
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	2
+Release:	3
 License:	LGPLv2
 Group:		Development/Perl
 Url:		http://metacpan.org/pod/Test::NoWarnings
